@@ -1,0 +1,16 @@
+
+Todo:
+  ☐ Create comment model
+    ☐ Comment model should have ref to the User who created it and the Issue it was made on
+  
+  ☐ Create comment router
+    ☐ Get all request vs Get by Issue id request
+    ☐ We need to manage both references in the post route
+    ☐ Test in Postman
+
+  ☐ Front end implementation 
+    ☐ Axios request to get comments
+    ☐ Putting the comments on the page
+    ☐ How do we handle having just the comments for that issue display vs all comments
+    ☐ Axios request to post new comments
+    ☐ Implement that request on the form
